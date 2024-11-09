@@ -24,6 +24,8 @@ a:focus, a:hover {
 }
 
 body {
+margin-left: 10px;
+margin-right: 10px;
 
 }
 
@@ -36,33 +38,47 @@ h1, h2, h3 {
 }
 
 h1 {
-
+	text-align: center;	
 }
 
 h2 {
+	line-height: 125%;
+	font-size: 20px;
 
 }
 
 h3 {
-	
+	line-height: 100%;
+	font-size: 18px;
+	padding-top: 15px;
 }
 
 header {
-	
+	line-height: 145%;
+	font-size: 22px;
+	margin-top: 20px;
 }
 
 main {
-
+	line-height: 145%;
 }
 
 p {
-
+	text-align: left;
+	font-size: 15px;
+	text-indent: 1em;
+	line-height: 125%;
 }
 
 #intro {
-
+line-height: 135%;
+margin-bottom: 15px;
 }
 
 #how-does-it-work, #influence, #joke {
+margin-bottom: 15px;
+}
 
+b{
+font-size: 18px;
 }
