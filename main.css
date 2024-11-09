@@ -11,6 +11,10 @@
 	You can modify everything after this point.
 */
 
+/* font imported */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 a:link, a:visited {
 	color: blue;
 }
@@ -27,6 +31,8 @@ body {
 margin-left: 10px;
 margin-right: 10px;
 max-width: 75ch;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
 }
 
 code {
@@ -34,6 +40,8 @@ code {
 }
 
 h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
 
 }
 
